@@ -1,13 +1,13 @@
 /* Base styles */
 * {
 	box-sizing: border-box;
-	font-family: menlo;
-
+	font-family: menlo, Arial, sans-serif;
 }
 
 h1 {
 	text-align: center;
 	color: black;
+	font-size: 28px;
 }
 
 .box {
@@ -22,7 +22,8 @@ h1 {
 	position: relative;
 	top: -1.5px;
 	left: 70.5%;
-	border: 1.5px solid black;
+	font-size: 20px;
+	border: 1px solid black;
 	color: black;
 	font-weight: bold;
 }
@@ -38,7 +39,7 @@ p {
 }
 
 #p2 .section-title {
-	background: red;
+	background: brown;
 	color: white;
 }
 
